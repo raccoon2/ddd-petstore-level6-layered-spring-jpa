@@ -1,7 +1,7 @@
 package com.demo.order.domain;
 
 public enum OrderStatus {
-    CONFIRM, CANCELED, CANCELCONFIRM, MAKING, FINISH
+    주문확인중, 주문취소됨, 주문취소요청, 조리중, 완료
 
 
 }

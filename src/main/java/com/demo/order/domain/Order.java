@@ -25,12 +25,12 @@ public class Order {
         name="ORDER_ITEM",
         joinColumns = @JoinColumn(name="id")
     )
-    List<Menu> menus = new ArrayList<Menu>();
+    List<OrderItem> menus = new ArrayList<OrderItem>();
 
-    public List<Menu> getMenus() {
+    public List<OrderItem> getOrderItems() {
         return menus;
     }
-    public void setMenus(List<Menu> menus) {
+    public void setOrderItems(List<OrderItem> menus) {
         this.menus = menus;
     }
     public int getTableNo() {
@@ -69,7 +69,6 @@ public class Order {
     public void setStatus(OrderStatus status) {
         this.status = status;
     }
-
 
     
 }

@@ -3,7 +3,7 @@ package com.demo.order.domain;
 import javax.persistence.*;
 
 @Embeddable
-public class Menu {
+public class OrderItem {
 
     
     String menuId;
@@ -11,7 +11,7 @@ public class Menu {
     
 
     public String getMenuId() {
-        return menuId;1
+        return menuId;
     }
 
 
